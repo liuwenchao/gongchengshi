@@ -13,6 +13,7 @@ module.exports = function(grunt) {
         },
         'gitbook': {
             optiosn: {
+                "title": "宫成师",
                 "input": "./",
                 "generator": "site"
             }
