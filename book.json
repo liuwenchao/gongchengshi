@@ -10,7 +10,7 @@
     "generator": "site",
 
     // Book title and description (defaults are extracted from the README)
-    "title": null,
+    "title": "宫成师",
     "description": null,
 
     // For ebook format, the extension to use for generation (default is detected from output extension)
