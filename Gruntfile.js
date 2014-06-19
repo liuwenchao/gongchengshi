@@ -34,7 +34,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-gh-pages');
 
     grunt.registerTask('build',  ['gitbook']);
-    grunt.registerTask('deploy', ['gh-pages']);
-    grunt.registerTask('server', ['connect']);
+    grunt.registerTask('deploy', ['gitbook', 'gh-pages']);
+    grunt.registerTask('server', ['gitbook', 'connect']);
 
 };
