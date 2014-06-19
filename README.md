@@ -45,7 +45,13 @@
 * 每个段落可以同时独立开发
 * 不限文字，可以有emoji,gson,图片,视频，但是最好利用好markdown的语法
 * 需要一个工具把内容编译成html
-* 在线Markdown编写工具， 有时候github的不大管用: http://markable.in/editor/
+* 编写工具 https://github.com/GitbookIO/editor 或者 http://markable.in/editor/
+
+### 有用的命令
+
+* grunt build #编译MD成HTML
+* grunt server #启动一个服务器在浏览器中预览
+* grunt deploy #发布到gh-pages分支
 
 
 ### Contributing
