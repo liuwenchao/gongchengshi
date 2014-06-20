@@ -11,7 +11,7 @@
 
     // Book title and description (defaults are extracted from the README)
     "title": "宫成师",
-    "description": null,
+    "description": "一部以程序员生活为题材的小说，一个任何人都可以提供灵感和文字的开源项目。",
 
     // For ebook format, the extension to use for generation (default is detected from output extension)
     // "epub", "pdf", "mobi"
@@ -43,7 +43,7 @@
     // Links in template (null: default, false: remove, string: new value)
     "links": {
         // Link to home in the top-left corner
-        "home": null,
+        "home": "http://liuwenchao.github.io/gongchengshi/",
 
         // Links in top of sidebar
         "about": null,
